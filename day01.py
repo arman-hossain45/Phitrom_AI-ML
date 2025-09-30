@@ -197,3 +197,69 @@
 
 #excricise in list 
 
+#Problem 01: Create a list of five elements. Pass the list
+#to a function and compute the average of five numbers.
+
+
+# def avg(lst):
+#     n=len(lst)
+#     print('lst = ',lst)
+#     m=sum(lst)
+#     a=m/n
+#     return a
+
+# lst=[1,23,45,56]
+# b=avg(lst)
+# print('avarage of the all list element is =',b)
+
+#Problem 02: Write a function that accepts two positive integers, viz. a and b and returns a list of
+#all the even numbers between a and b (including a and not including b).
+
+# lst=list(range(10,20))
+# print(lst)
+
+# def evenlist(start,end):
+#     even=[]
+#     lst=list(range(start,end))
+#     print('list is =',lst)
+#     for item in lst:
+#         if item%2==0:
+#             even.append(item)
+#     return even
+
+# a=evenlist(10,20)
+# print('Even list of the given range is =',a)
+
+#Problem 03: Write a function is_Lst_Palindrome(Lst) to check whether a list is palindrome. It
+#should return True if Lst is palindrome and False if Lst is not palindrome
+
+# def palindrome(lst):
+#     reverse=lst[::-1]
+#     if lst==reverse:
+#         print('lst is a palimdrome ')
+#     else:
+#         print('list is a not palindrome')
+
+# lst=[1,1,1,1,1]
+# print(palindrome(lst))
+
+#Write a function check_duplicate(Lst) which returns True if a list Lst contains duplicate elements. 
+#It should return False, if all the elements in the list Lst are unique.
+
+# def duplicate(lst):
+#     n=len(lst)
+#     temp=0
+#     print('list is = ',lst)
+
+#     for i in range(0,n):
+#         for j in range(i,n-1):
+#             if lst[i]==lst[i+1]:
+#                 temp+=1
+#                 return True
+#             else:
+#               return False
+
+# l=[1,1,2,3,4,2,3,4]
+# print(duplicate(l))
+# l1=[1,23,4,5,6,78,9]
+# print(duplicate(l1))
