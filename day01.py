@@ -263,3 +263,15 @@
 # print(duplicate(l))
 # l1=[1,23,4,5,6,78,9]
 # print(duplicate(l1))
+
+#Problem 01: Write the function countB(word) which takes a word as the argument
+#and returns the number of ‘b’ in that word.
+def countB(word):
+ print(word)
+ count = 0
+ for char in word:
+  if char == "b":
+   count += 1
+ return count
+countOfB = countB("abba abbabababab")
+print("Number of 'b' = ", countOfB)
