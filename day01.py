@@ -275,3 +275,17 @@ def countB(word):
  return count
 countOfB = countB("abba abbabababab")
 print("Number of 'b' = ", countOfB)
+
+
+print("Hollow Rectangle pattern")
+def hollow_rectangle(total_rows, total_colums):
+   for i in range(1, total_rows+1):
+    for j in range(1, total_colums+1):
+
+     if i==1 or i==total_rows or j==1 or j==total_colums:
+
+           print("*", end=" ")
+    else:
+      print(" ", end=" ")
+   print()
+hollow_rectangle(4,5)
