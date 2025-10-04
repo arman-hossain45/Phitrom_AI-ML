@@ -266,26 +266,33 @@
 
 #Problem 01: Write the function countB(word) which takes a word as the argument
 #and returns the number of ‘b’ in that word.
-def countB(word):
- print(word)
- count = 0
- for char in word:
-  if char == "b":
-   count += 1
- return count
-countOfB = countB("abba abbabababab")
-print("Number of 'b' = ", countOfB)
+# def countB(word):
+#  print(word)
+#  count = 0
+#  for char in word:
+#   if char == "b":
+#    count += 1
+#  return count
+# countOfB = countB("abba abbabababab")
+# print("Number of 'b' = ", countOfB)
 
 
-print("Hollow Rectangle pattern")
-def hollow_rectangle(total_rows, total_colums):
-   for i in range(1, total_rows+1):
-    for j in range(1, total_colums+1):
+# print("Hollow Rectangle pattern")
+# def hollow_rectangle(total_rows, total_colums):
+#    for i in range(1, total_rows+1):
+#     for j in range(1, total_colums+1):
 
-     if i==1 or i==total_rows or j==1 or j==total_colums:
+#      if i==1 or i==total_rows or j==1 or j==total_colums:
 
-           print("*", end=" ")
-    else:
-      print(" ", end=" ")
-   print()
-hollow_rectangle(4,5)
+#            print("*", end=" ")
+#     else:
+#       print(" ", end=" ")
+#    print()
+# hollow_rectangle(4,5)
+
+nums = [10, 20, 30, 40, 50, 60]
+print(nums[1:4])   # middle slice
+print(nums[-3:])   # last 3
+print(nums[::2])   # step slice
+print(nums[::-1])  # reverse
+print(nums[:-3])
