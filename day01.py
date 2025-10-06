@@ -340,12 +340,19 @@
 #list comprehention 
 #normal way to declaire a list in sample way
 
+# lst=[10,20,30,40,50,60,70,80,90,100]
+
+# for i in lst:
+#     a=i*(9/5)+32
+#     print(a)
+
+
+# farhen=[i*(9/5)+32 for i in lst]
+# print(farhen)
+
 lst=[10,20,30,40,50,60,70,80,90,100]
+#print only even index as a list comprehention 
 
-for i in lst:
-    a=i*(9/5)+32
-    print(a)
-
-
-farhen=[i*(9/5)+32 for i in lst]
+farhen=[i*(9/5)+32 for i in lst if i%2==0]
 print(farhen)
+
