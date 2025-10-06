@@ -350,9 +350,14 @@
 # farhen=[i*(9/5)+32 for i in lst]
 # print(farhen)
 
-lst=[10,20,30,40,50,60,70,80,90,100]
-#print only even index as a list comprehention 
+# lst=[10,20,30,40,50,60,70,80,90,100]
+# #print only even index as a list comprehention 
 
-farhen=[i*(9/5)+32 for i in lst if i%2==0]
-print(farhen)
+# farhen=[i*(9/5)+32 for i in lst if i%2==0]
+# print(farhen)
 
+sq=[x**2 for x in range(6)]
+print(sq)
+
+even=[i for i in range(20) if i%2==0]
+print(even)
