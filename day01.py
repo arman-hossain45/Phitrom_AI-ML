@@ -321,14 +321,31 @@
 # orders_count_by_user = {user.get("user_id"): len(user.get("orders", [])) for user in users_data}
 # print("Number of orders per user:", orders_count_by_user)
 
-nested_sequence=[[x**2 for x in range(i,i+5)if x%2==0] for i in range(1,10,3) ]
+# nested_sequence=[[x**2 for x in range(i,i+5)if x%2==0] for i in range(1,10,3) ]
 
-print(nested_sequence)
+# print(nested_sequence)
 
-square=[x**2 for x in range(6)]
-print(square)
-evens=[x for x in range(10) if x%2==0]
-print(evens)
+# square=[x**2 for x in range(6)]
+# print(square)
+# evens=[x for x in range(10) if x%2==0]
+# print(evens)
 
-map={x:x**2 for x in range(5)}#here its a dictionary 
-print(map)
+# map={x:x**2 for x in range(5)}#here its a dictionary 
+# print(map)
+
+# print(7/2)
+# print(7//2)
+
+
+#list comprehention 
+#normal way to declaire a list in sample way
+
+lst=[10,20,30,40,50,60,70,80,90,100]
+
+for i in lst:
+    a=i*(9/5)+32
+    print(a)
+
+
+farhen=[i*(9/5)+32 for i in lst]
+print(farhen)

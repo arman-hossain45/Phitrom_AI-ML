@@ -1,15 +1,3 @@
-count=0
-# sum=0
+nested_sequence=[[x**2 for x in range(i,i+5)if x%2==0] for i in range(1,10,3) ]
 
-# while count<=10:
-#  sum=sum+count 
-#  count=count+1
-
-# print(sum)
-
-# #using for loo[p
-# sum=0
-# for i in range(11):
-#  sum=sum+i
-
-# print(sum)
+# print(nested_sequence)
