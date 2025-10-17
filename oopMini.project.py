@@ -11,7 +11,13 @@
 #calculate intrest
 #
 #
+from abc import ABC, abstractmethod
 
+# Abstraction
+class BankService(ABC):
+    @abstractmethod
+    def transaction(self):
+        pass
 
 class account:
     bank_name="Phitron Bank"
@@ -50,6 +56,16 @@ class currentAccount(account):
     def withdraw(self, withDrawMoney):
         if withDrawMoney>self.get_balance+self.overlimit:
             return f'Insufficient Balance'
+        balance= self.get_balance()-withDrawMoney
+        return f'{withDrawMoney} is withdrawed ,new balance is {balance}'
+
+class ATM(BankService):
+    def transaction(self):
+        print("ATM Transaction: Cash Withdraw or balance Check")
+
+
+
+currentUser=currentAccount("Arman",123,1000,500)
         
 
      
