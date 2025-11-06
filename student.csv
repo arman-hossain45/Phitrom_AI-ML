@@ -1,0 +1,24 @@
+,ID,StudentName,District,Instructor,Math_Mark,Biology_Mark,Physics_Mark,totall_mark,Passed_In_Bio,First_name
+0,S001,Nusrat Hossain,Sylhet,,54.0,48.0,,,False,Nusrat
+1,S002,Nusrat Bhuiyan,Chattogram,Dr. Siddique,67.0,42.0,41.0,150.0,False,Nusrat
+2,S003,Tania Sarkar,Rajshahi,Dr. Siddique,78.0,41.0,75.0,194.0,False,Tania
+3,S004,Rana Bhuiyan,Rangpur,,,77.0,57.0,,True,Rana
+4,S005,Arman Rahman,Rangpur,Ms. Ayesha,57.0,49.0,53.0,159.0,False,Arman
+5,S006,Fahim Khan,Chattogram,Ms. Ayesha,46.0,,94.0,,False,Fahim
+6,S007,Joy Roy,Sylhet,Mr. Karim,86.0,69.0,74.0,229.0,False,Joy
+7,S008,Nusrat Ahmed,Chattogram,Dr. Siddique,58.0,93.0,80.0,231.0,True,Nusrat
+8,S009,Mona Chowdhury,,Dr. Siddique,,42.0,,,False,Mona
+9,S010,Kamal Islam,Chattogram,Mr. Karim,95.0,,64.0,,False,Kamal
+10,S011,Sabrina Hasan,Barishal,Mr. Karim,,62.0,53.0,,False,Sabrina
+11,S012,Sabrina Khan,Khulna,Dr. Siddique,86.0,55.0,50.0,191.0,False,Sabrina
+12,S013,Tanvir Ahmed,Sylhet,Dr. Siddique,84.0,75.0,54.0,213.0,True,Tanvir
+13,S014,Fahim Hossain,Rajshahi,Mr. Karim,91.0,,65.0,,False,Fahim
+14,S015,Sabrina Khan,Rajshahi,Dr. Siddique,96.0,85.0,,,True,Sabrina
+15,S016,Rana Hasan,Rangpur,Dr. Siddique,69.0,49.0,56.0,174.0,False,Rana
+16,S017,Samir Sarkar,,Dr. Siddique,77.0,67.0,97.0,241.0,False,Samir
+17,S018,Rashed Ahmed,,,48.0,72.0,71.0,191.0,True,Rashed
+18,S019,Tania Hossain,Chattogram,Mr. Karim,80.0,50.0,90.0,220.0,False,Tania
+19,S020,Nabila Roy,Chattogram,Ms. Ayesha,64.0,78.0,69.0,211.0,True,Nabila
+20,S001,Nusrat Hossain,Sylhet,,54.0,48.0,,,False,Nusrat
+21,S018,Rashed Ahmed,,,48.0,72.0,71.0,191.0,True,Rashed
+22,S016,Rana Hasan,Rangpur,Dr. Siddique,69.0,49.0,56.0,174.0,False,Rana
